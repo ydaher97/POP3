@@ -1,4 +1,4 @@
-# POP3-CLient
+# POP3-Client
 ![image](https://user-images.githubusercontent.com/75926858/213996401-a27a1ef0-176d-4340-8d84-1581d9ce4ccc.png)
 When the user clicks on “Connect”, the tool attempts to connect to the server identified in the POP Server
 field on port 110 (the default POP3 port).
@@ -45,7 +45,7 @@ its TCP connection with the client and expunge any messages flagged for deletion
 
 ![image](https://user-images.githubusercontent.com/75926858/213996948-4699ebe3-e659-49cf-8830-096eec798192.png)
 # RAW COMMAND
-In addition to the buttons, the bottom TextField in the Raw Command Entry lets the user send raw
+ the bottom TextField in the Raw Command Entry lets the user send raw
 commands to the server, not just using the buttons.
 
 # Server Responses
@@ -57,4 +57,4 @@ for responses), we will implement a separate listening thread which will display
 server in the central “log” TextArea on the bottom.
 
 # NOTE
-you might need to figure your javafx here is a guide on how to do it https://openjfx.io/openjfx-docs/
+you might need to configure your javafx in the project structure here is a guide on how to do it https://openjfx.io/openjfx-docs/
